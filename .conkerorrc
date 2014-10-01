@@ -1,4 +1,4 @@
-// 2014-09-26
+// 2014-09-30
 
 
 // Better clock and date format
@@ -169,3 +169,7 @@ define_key(content_buffer_normal_keymap, "M-f", "follow-new-buffer-background");
 
 // Make C-c C-c submit form
 define_key(content_buffer_normal_keymap, "C-c C-c", "submit-form");
+
+
+// Make C-x C-p print the current page
+define_key(default_global_keymap, "C-x C-p", "print-buffer");
