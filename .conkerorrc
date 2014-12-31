@@ -1,4 +1,4 @@
-// 2014-12-12
+// 2014-12-31
 
 
 // Better clock and date format
@@ -17,6 +17,10 @@ cwd.append("Downloads");
 
 // Set default webjump
 read_url_handler_list = [read_url_make_default_webjump_handler("google")];
+
+
+// Add IMDB webjump
+define_webjump("imdb", "http://www.google.com/search?q=imdb+%s&btnI=I'm Feeling Lucky");
 
 
 // Open external URLs and files in active window
